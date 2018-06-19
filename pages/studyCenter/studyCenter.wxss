@@ -1,0 +1,32 @@
+/* pages/studyCenter/studyCenter.wxss */
+.container{
+  padding:0px;
+  display:flex;
+}
+.studyLink{
+ flex-direction: column;
+  text-align:center;
+}
+.studyLink image{
+  width:750rpx;
+}
+.studyLink text{
+  color:red;
+  line-height:40rpx;
+  font-size: 40rpx;
+}
+
+.record{
+ flex-direction: column;
+ margin-top:30rpx;
+ margin-bottom:30rpx;
+}
+.record image{
+  width:750rpx;
+}
+.record text{
+  color:#333;
+  line-height:40rpx;
+  font-size: 26rpx;
+  margin-left:20rpx;
+}

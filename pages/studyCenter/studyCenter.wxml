@@ -1,0 +1,11 @@
+<!--pages/studyCenter/studyCenter.wxml-->
+<view class="container">
+  <view class="studyLink">
+      <image src="/images/studyCenter/studyCenter.jpg"></image>
+      <text >30天手绘速成教程</text>
+  </view>
+  <view class="record">
+     <image src="/images/studyCenter/record.jpg"></image>
+      <text >学习|30天我们一起学习手绘！打开第一天。</text>
+  </view>
+</view>

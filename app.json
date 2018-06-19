@@ -1,0 +1,38 @@
+{
+  "pages":[
+    "pages/studyCenter/studyCenter",
+    "pages/post/post",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/mine/mine"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "微赞论坛",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#dddddd",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [{
+      "pagePath": "pages/studyCenter/studyCenter",
+      "text": "印记",
+      "iconPath": "images/index.png",
+      "selectedIconPath": "images/index.png"
+    },{
+      "pagePath": "pages/index/index",
+      "text": "圈子",
+      "iconPath": "images/发帖32x32.png",
+      "selectedIconPath": "images/发帖32x32hl.png"
+     
+    },{
+      "pagePath": "pages/mine/mine",
+      "text": "我的",
+      "iconPath": "images/我的32x32.png",
+      "selectedIconPath": "images/我的32x32hl.png"
+    }]
+  }
+}
