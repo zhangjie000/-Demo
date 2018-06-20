@@ -4,12 +4,13 @@
     "pages/post/post",
     "pages/index/index",
     "pages/logs/logs",
-    "pages/mine/mine"
+    "pages/mine/mine",
+    "pages/studyDetails/studyDetails"
   ],
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "微赞论坛",
+    "navigationBarTitleText": "交流中心",
     "navigationBarTextStyle":"black"
   },
   "tabBar": {

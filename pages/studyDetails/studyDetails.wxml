@@ -1,0 +1,54 @@
+<view class="Box">
+  <view class="detailsContent">
+    <view class="detailsFl">
+      <view>
+        <text class="title">30天我们一起学手绘！打卡第一天~</text>
+      </view>
+      <view>
+        <text class="time">2018年5月1日</text>
+      </view>
+    </view>
+    <view class="detailsFr">
+      <image src="/images/studyDetails/details1.jpg"></image>
+    </view>
+  </view>
+  <view class="detailsContent">
+    <view class="detailsFl">
+      <view>
+        <text class="title">30天我们一起学手绘！打卡第二天~</text>
+      </view>
+      <view>
+        <text class="time">2018年5月3日</text>
+      </view>
+    </view>
+    <view class="detailsFr">
+      <image src="/images/studyDetails/details2.jpg"></image>
+    </view>
+  </view>
+   <view class="detailsContent">
+    <view class="detailsFl">
+      <view>
+        <text class="title">30天我们一起学手绘！打卡第三天~</text>
+      </view>
+      <view>
+        <text class="time">2018年5月8日</text>
+      </view>
+    </view>
+    <view class="detailsFr">
+      <image src="/images/studyDetails/details3.jpg"></image>
+    </view>
+  </view>
+  <view class="detailsContent">
+    <view class="detailsFl">
+      <view>
+        <text class="title">30天我们一起学手绘！打卡第四天~</text>
+      </view>
+      <view>
+        <text class="time">2018年5月12日</text>
+      </view>
+    </view>
+    <view class="detailsFr">
+      <image src="/images/studyDetails/details4.jpg"></image>
+    </view>
+  </view>
+</view>

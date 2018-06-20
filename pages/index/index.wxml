@@ -22,28 +22,6 @@
       <view><view class="announcement-icon02"></view><view></view></view>
     </view>
   </view>
-  <view class="index-heading-scrol">
-    <scroll-view class="index-heading-content" scroll-x="true" scroll-left="{{scrollLeft}}" style="width:100%">
-
-      <view  class="f1 bankuai {{currentTypeId==0&&hot==0?'selected':''}}"  catchtap="toBankuai" data-typeid="0"><text>全部</text></view>
-
-      <view  class="fl bankuai {{currentTypeId==0&&hot==1?'selected':''}}" catchtap="toBankuai" data-typeid="0" data-hot="1"><text>热帖</text></view>
-
-      <block wx:for="{{typeList}}" wx:for-item="type" wx:key="ArticleTypeID">
-        <view wx:if="{{type.ArticleTypeID != 0}}" class="fl bankuai {{ currentTypeId==type.ArticleTypeID?'selected':''}}" catchtap="toBankuai" data-typeid="{{type.ArticleTypeID}}">
-            <text>{{type.ArticleTypeName}}</text>
-        </view>
-      </block>
-      <!--<view style="{{css.bankuaiSelected}}" class="fl bankuai "><text>热帖</text></view>
-      <view style="{{css.bankuaiSelected}}" class="fl bankuai "><text>运营日报</text></view>
-      <view style="{{css.bankuaiSelected}}" class="fl bankuai "><text>操作指南</text></view>
-      <view style="{{css.bankuaiSelected}}" class="fl bankuai "><text>常见问题</text></view>
-      <view style="{{css.bankuaiSelected}}" class="fl bankuai "><text>微赞故事</text></view>
-      <view style="{{css.bankuaiSelected}}" class="fl bankuai "><text>更新进度</text></view>-->
-    </scroll-view>
-    <view class="index-heading-more" catchtap="moreType" >+</view>
-  </view>
-  <view class="scrollview-hide"></view>
   <!-- 帖子内容 -->
   <scroll-view class="art-content" scroll-y="true" scroll-x="false" 
   bindscrolltolower="moreArticle" data-page-index="{{pageIndex}}" style="height: 900px;width:100%;">
@@ -105,7 +83,7 @@
             <view class="fr res"><view class="icon-zan {{item.IsPraise == 0?'':'zaned'}}"></view><em style="color:{{item.IsPraise == 0?'':'#5a85ce'}}" class="em">赞 {{item.Praise}}</em> </view>
             <view class="fr res"><view class="icon-ping"></view><em class="em">评 {{item.CommentCount}}</em> </view>
             <view class="fr res"><view class="icon-zhuan"></view><em class="em">转</em> </view>
-             <view class="fr res"><view class="icon-reward"></view><em class="em">赏 {{item.Praise}}</em> </view>
+             <!-- <view class="fr res"><view class="icon-reward"></view><em class="em">赏 {{item.Praise}}</em> </view> -->
             <view style="clear:both"></view>
           </view>
         </view>
