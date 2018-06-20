@@ -1,21 +1,28 @@
 
-
-
 <!--index.wxml-->
 <view class="body">
   <view class="border-slice">
     <view class="head">
       <view class="index-head-logo">
-        <image class="index-head-logo-img" src="http://i.pengxun.cn/upload/thumbnail/20150923/130874432266460890.jpg"></image>
+         <image class="index-head-logo-img" src="/images/myHeader.jpg"></image> 
         <text class="index-head-logo-f">
-          话题  7179 | 访问 984328
+          话题  235 | 访问 47583
         </text>
       </view>
       <view class="head-banner"></view>
     </view>
     <view class="index-head-bottom">
-        <view class="flex"><view class="index-sign"></view>签到</view>
-        <view class="flex"><view class="index-focus"></view>关注</view>
+        <view class="flex">
+          <text catchtap="myPost">
+            <text class="index-sign"></text>我要发帖
+          </text>
+        </view>
+        <view class="flex">
+          <text>
+            <text class="index-focus"></text>关注
+          </text>
+          
+        </view>
     </view>
     <view class="head-announcement">
       <view><view class="announcement-icon02"></view><text></text></view>
@@ -69,13 +76,6 @@
                 <image mode="left" style="max-height:200px; max-width:100%" src="{{image.thumbnail}}" class="article-image"></image>
               </view>
             </block>
-            <!-- 视频 
-            <block wx:for="" wx:for-item="video">
-                <view>
-
-                </view>
-            </block>
-            -->
           </view>
           <!-- 转评赞 -->
           <view>
@@ -126,16 +126,6 @@
                       <text wx:if="{{comment.DUser}}">回复<text style="color:#5a85ce;max-width:110px;">@{{comment.DUser.NickName}} : </text></text>
                       <text>{{comment.ContentHtml}}</text>
                     </view>
-                    <!-- 语音 -->
-                    <view wx:if="{{comment.Voice}}" class="comment-voice-container">
-                      <view class="audio-wrap" catchtap="playAudio" data-v-id="{{comment.Voice.Id}}">
-                        <image style="width:22px; height:22px;margin-left:4px" src="{{audioIcon}}"></image>            
-                        <audio  class="audio" id="{{comment.Voice.Id}}" 
-                        poster="http://y.gtimg.cn/music/photo_new/T002R300x300M000003rsKF44GyaSk.jpg?max_age=2592000" 
-                        src="{{comment.Voice.TransFilePath}}"></audio>
-                      </view>
-                      <view class="audio-time-wrap"><text>{{comment.Voice.VoiceTime}}"</text></view>
-                    </view>
                     <!-- 评论图片 -->
                     <view class="comment-image" >
                       <block wx:for="{{comment.Images}}" wx:for-item="comImages" wx:key="Id">
@@ -150,11 +140,4 @@
       </view>
     </block>
   </scroll-view>
-</view>
-
-<view class="comment-voice-container">
-   <view class="audio-wrap">
-      <audio id="test" class="audio" name="此时此刻" controls   poster="http://i.pengxun.cn/content/images/voice/voiceplaying.png" 
-      src="http://shop.vzan.com/t.mp3"></audio>
-  </view>
 </view>

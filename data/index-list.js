@@ -1,24 +1,4 @@
 
-var typeList = [{
-	ArticleTypeID : 0,
-	ArticleTypeName : "全部"
-},{
-	ArticleTypeID : 3132,
-	ArticleTypeName : "运营日报"
-},{
-	ArticleTypeID : 875,
-	ArticleTypeName : "操作指南"
-},{
-	ArticleTypeID : 2038,
-	ArticleTypeName : "常见问题"
-},{
-	ArticleTypeID : 2033,
-	ArticleTypeName : "微赞故事"
-},{
-	ArticleTypeID : 1,
-	ArticleTypeName : "更新进度"
-}]
-
 var articleList= [{
             "CurrentPageIndex": 1,
             "Title": "",
@@ -555,5 +535,4 @@ var articleList= [{
 
 
 module.exports.articles=articleList;
-module.exports.typeList=typeList;
 
