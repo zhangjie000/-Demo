@@ -1,13 +1,25 @@
+var indexList = require("../../data/index-list.js")
+var app = getApp();
 
 var app = getApp();
 
 Page({
   data:{
-    
+    title:''
   },
   onLoad:function(options){
     // 页面初始化 options为页面跳转所带来的参数
   },
+  submitData:function (){
+    console.log(this.data.title)
+  },
+  bindTextAreaBlur: function (e) {
+    console.log(e.detail.value)
+    this.setData({
+      title: e.detail.value
+    })
+
+  },   
   onReady:function(){
     // 页面渲染完成
   },

@@ -1,13 +1,13 @@
 <view>
     <view class="post-title-wrap" >
-        <textarea class="c-fullwidth post-title"  name="textarea1" placeholder="标题，可以不填..." type="textarea"/>
+        <textarea bindblur="bindTextAreaBlur" class="c-fullwidth post-title"  name="textarea1" placeholder="标题，可以不填..." type="textarea"/>
     </view>
     <view class="post-mainbody-wrap" >
         <textarea class="c-fullwidth post-mainbody"  name="textarea1" placeholder="这一刻的想法..." type="textarea"/>
     </view>
     <view class="post-submit-container" >
         
-        <button class="post-submit"  hover-class="button-hover" size="default" type="default" style="color:#fff;background-color:rgba(23,181,238,1)">
+        <button class="post-submit" catchtap="submitData"  hover-class="button-hover" size="default" type="default" style="color:#fff;background-color:rgba(23,181,238,1)">
             发表
         </button>
     </view>
