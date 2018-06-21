@@ -27,6 +27,7 @@ Page({
       })
     })
     this.ready();
+    
   },
   //我要发帖
   myPost:function (){
@@ -36,7 +37,7 @@ Page({
   },
   // 加载数据
   ready: function () {
-   
+    
     this.setData({
       articles:index.articles.slice(0,10),
     })
@@ -65,7 +66,14 @@ Page({
     });
     wx.hideNavigationBarLoading();
   },
-  
+  onShow:function (){
+    console.log(1234567889)
+    console.log(wx.getStorageSync('key'))
+    console.log(index.articles.slice(0, 10))
+    this.setData({
+      articles: wx.getStorageSync('key').articles,
+    })
+  }
  
  
   

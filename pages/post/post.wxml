@@ -1,9 +1,9 @@
 <view>
     <view class="post-title-wrap" >
-        <textarea bindblur="bindTextAreaBlur" class="c-fullwidth post-title"  name="textarea1" placeholder="标题，可以不填..." type="textarea"/>
+        <textarea bindinput="bindTextAreaTitle" class="c-fullwidth post-title"  name="textarea1" placeholder="标题，可以不填..." type="textarea"/>
     </view>
     <view class="post-mainbody-wrap" >
-        <textarea class="c-fullwidth post-mainbody"  name="textarea1" placeholder="这一刻的想法..." type="textarea"/>
+        <textarea bindinput="bindTextAreaContent" class="c-fullwidth post-mainbody"  name="textarea1" placeholder="这一刻的想法..." type="textarea"/>
     </view>
     <view class="post-submit-container" >
         
