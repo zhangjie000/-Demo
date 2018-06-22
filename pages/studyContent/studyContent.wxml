@@ -1,0 +1,59 @@
+<!--pages/studyContent/studyContent.wxml-->
+<view class="studyConent">
+  <view>
+    <text>
+        让手绘更简单，从现在学起之一！
+    </text>
+  </view>
+  <view>
+    <text>
+        承蒙各位手绘爱好者粉丝的厚爱，“30天我们一起学手绘”活动已圆满结束。在此期间我们受到了广大粉丝朋友的欢迎和手绘爱好者的支持。手绘爱好者在学习和打卡过程中，发现手绘变得简单易学，各位的手绘才艺也得到慢慢提升。
+    </text>
+  </view>
+  <view>
+    <text>
+        接下来手绘馆将面向广大手绘爱好者推出简单易学的手绘学习系列内容。同时为节省时间把打卡调整为一周一打卡，让粉丝朋友们养成手绘的好习惯，因此提供一周的时间对作品进行雕琢和优秀打卡作品展示
+    </text>
+  </view>
+  <view>
+    <text>
+        手绘馆运营小伙伴可以拉你进群哦
+    </text>
+  </view>
+  <view>
+    <text>
+        让手绘更简单，从现在学起之七！限每周末打卡一次！！
+    </text>
+  </view>
+
+  <view>
+    <text>
+       作为科班出身的小编来说，深知早期绘画刚入门时的艰辛与无奈：造型不准确、画得腻了、画得死板……，在这些批评的话语中，当年萦绕在我脑子里最深刻的是：造型不准确！
+    </text>
+  </view>
+  <view class="boxImg">
+    <image src="/images/studyContent/img11.jpg">
+
+    </image>
+  </view>
+  <view>
+    <text>
+       造型是事物的骨架，骨架对了，你就成功了80%
+    </text>
+  </view>
+  <view>
+    <text>
+       当时，小编还是小鲜肉的时候，咳咳，对于造型不准确的本质原因并不了解，归结为：画得少、眼高手低等等，弯路走的不少，短时间见效很慢，就像迷失在一个怪圈森林里。
+    </text>
+  </view>
+  <view class="boxImg">
+    <image src="/images/studyContent/img12.jpg">
+
+    </image>
+  </view>
+  <view>
+    <text>
+      事物之间是关联而相通的，不要孤立去看，也许在非绘画领域你顿悟了，在绘画中你会有突飞猛进的提高。
+    </text>
+  </view>
+</view>

@@ -1,0 +1,22 @@
+/* pages/studyContent/studyContent.wxss */
+
+.studyConent{
+  padding:20rpx;
+}
+view{
+  justify-content:center;
+}
+.studyConent text{
+  font-size:24rpx;
+  color:#333;
+  
+  flex-direction: column;
+}
+.studyConent .boxImg{
+  text-align: center;
+  padding:20rpx 0px;
+}
+.studyConent  image{
+  width:70%;
+  flex-direction:column-reverse;
+}
