@@ -1,10 +1,13 @@
 {
   "pages":[
-    "pages/index/index",
+   
     "pages/studyCenter/studyCenter",
+    "pages/index/index",
     "pages/post/post",
     "pages/mine/mine",
-    "pages/studyDetails/studyDetails"
+    "pages/studyDetails/studyDetails",
+    "pages/myPost/myPost",
+    "pages/studyContent/studyContent"
   ],
   "window":{
     "backgroundTextStyle":"light",

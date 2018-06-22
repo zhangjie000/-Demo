@@ -17,10 +17,13 @@
         </text>
       </view>
       <view class="flex">
-        <text>
-            <text class="index-focus"></text>关注
-        </text>
+        <view wx:if="{{fouceShow}}" catchtap="foucsPop">
+          <image src="/images/fouceNo.png" class="index-focus"></image>关注
+        </view>
+        <view wx:if="{{!fouceShow}}" catchtap="foucsPop" style="color:#d81e06">
 
+          <image src="/images/fouceYes.png" class="index-focus"></image>已关注
+        </view>
       </view>
     </view>
     <view class="head-announcement">
@@ -73,18 +76,31 @@
           <view>
             <!-- 转发 -->
             <view class="fr res">
-              <view class="icon-zan {{item.IsPraise == 0?'':'zaned'}}"></view>
-              <em style="color:{{item.IsPraise == 0?'':'#5a85ce'}}" class="em">赞 {{item.Praise}}</em>
+              <view style='display:inline-block' catchtap="praiseGood" data-good="{{item.good}}">
+                <view class="icon-zan {{item.IsPraise == 0?'':'zaned'}}"></view>
+                <em style="color:{{item.IsPraise == 0?'':'#5a85ce'}}" class="em">赞 {{item.Praise}}</em>
+              </view>
             </view>
             <view class="fr res">
-              <view class="icon-ping"></view>
-              <em class="em">评 {{item.CommentCount}}</em>
+              <view style='display:inline-block' catchtap="praiseping" data-good="{{item.good}}">
+                <view class="icon-ping"></view>
+                <em class="em">评 {{item.CommentCount}}</em>
+              </view>
             </view>
-            <view class="fr res">
+           
+            <!-- <view class="fr res">
               <view class="icon-zhuan"></view>
               <em class="em">转</em>
-            </view>
+            </view> -->
             <view style="clear:both"></view>
+             <view class="commit" wx:if="{{commitSureShow}}">
+                <view>
+                    <textarea bindinput="bindTextAreaContent" class="c-fullwidth post-mainbody"  name="textarea1" placeholder="这一刻的想法..." type="textarea"/>
+                </view>
+                 <view class="sumitSure" catchtap="sumitSureTap"  data-good="{{item.good}}">
+                   <text>确定</text>
+                </view>
+            </view>
           </view>
         </view>
         <!-- 点赞头像-->
@@ -118,11 +134,11 @@
                     <view class="res-content-time">{{comment.CreateDate}}</view>
                     <view style="clear:both"></view>
                   </view>
-                  <!-- 文字回复 -->
+                   <!-- 文字回复 
                   <view class="res-content">
                     <text wx:if="{{comment.DUser}}">回复<text style="color:#5a85ce;max-width:110px;">@{{comment.DUser.NickName}} : </text></text>
                     <text>{{comment.ContentHtml}}</text>
-                  </view>
+                  </view> -->
                   <!-- 评论图片 -->
                   <view class="comment-image">
                     <block wx:for="{{comment.Images}}" wx:for-item="comImages" wx:key="Id">

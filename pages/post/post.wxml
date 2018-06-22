@@ -1,7 +1,7 @@
 <view>
-    <view class="post-title-wrap" >
+    <!-- <view class="post-title-wrap" >
         <textarea bindinput="bindTextAreaTitle" class="c-fullwidth post-title"  name="textarea1" placeholder="标题，可以不填..." type="textarea"/>
-    </view>
+    </view> -->
     <view class="post-mainbody-wrap" >
         <textarea bindinput="bindTextAreaContent" class="c-fullwidth post-mainbody"  name="textarea1" placeholder="这一刻的想法..." type="textarea"/>
     </view>

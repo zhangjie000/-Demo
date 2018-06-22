@@ -80,12 +80,15 @@ page {
   display: inline-block;
 }
 .index-focus {
-  background: url(http://i.pengxun.cn/static/vzan/web/index/images/01/icon1.png) no-repeat 62% 2%;
-  background-size:552%;
-  vertical-align: -6px;
-  height: 48rpx;
-  width:48rpx;
-  display: inline-block;
+  /* background: url() no-repeat center center;
+  background-size:32rpx; */
+  /* vertical-align: -6px;
+  
+  display: inline-block; */
+  height: 32rpx;
+  width:32rpx;
+  margin-right: 10rpx;
+  margin-top:2rpx;
 }
 .index-heading-content view {
   display: inline-block;
@@ -254,7 +257,7 @@ page {
   float:right;
 }
 .res {
-  width: 33.33%;
+  width: 50%;
   text-align: center;
   height: 30px;
   line-height: 30px;
@@ -401,3 +404,27 @@ page {
     display: inline-block;
 }
 
+.commit{
+  padding:10rpx 40rpx;
+
+}
+.commit textarea{
+  font-size:30rpx;
+  padding: 5rpx;
+  border:1px solid #ddd;
+  height:200rpx;
+}
+.sumitSure{
+  text-align: right;
+  margin-top:20rpx;
+  margin-right:15rpx;
+  color:blue;
+}
+.sumitSure text{
+  display: inline-block;
+  padding: 10rpx 20rpx;
+  background: #aaa;
+  border-radius: 4rpx;
+  font-size: 30rpx;
+  color:#fff;
+}

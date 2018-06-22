@@ -1,5 +1,5 @@
 <view class="Box">
-  <view class="detailsContent">
+  <view class="detailsContent" catchtap="studyContent">
     <view class="detailsFl">
       <view>
         <text class="title">30天我们一起学手绘！打卡第一天~</text>
@@ -49,6 +49,58 @@
     </view>
     <view class="detailsFr">
       <image src="/images/studyDetails/details4.jpg"></image>
+    </view>
+  </view>
+   <view class="detailsContent">
+    <view class="detailsFl">
+      <view>
+        <text class="title">30天我们一起学手绘！打卡第四天~</text>
+      </view>
+      <view>
+        <text class="time">2018年5月12日</text>
+      </view>
+    </view>
+    <view class="detailsFr">
+      <image src="/images/studyDetails/details4.jpg"></image>
+    </view>
+  </view>
+   <view class="detailsContent">
+    <view class="detailsFl">
+      <view>
+        <text class="title">30天我们一起学手绘！打卡第五天~</text>
+      </view>
+      <view>
+        <text class="time">2018年5月12日</text>
+      </view>
+    </view>
+    <view class="detailsFr">
+      <image src="/images/studyDetails/details5.jpg"></image>
+    </view>
+  </view>
+   <view class="detailsContent">
+    <view class="detailsFl">
+      <view>
+        <text class="title">30天我们一起学手绘！打卡第六天~</text>
+      </view>
+      <view>
+        <text class="time">2018年5月12日</text>
+      </view>
+    </view>
+    <view class="detailsFr">
+      <image src="/images/studyDetails/details6.jpg"></image>
+    </view>
+  </view>
+   <view class="detailsContent">
+    <view class="detailsFl">
+      <view>
+        <text class="title">30天我们一起学手绘！打卡第七天~</text>
+      </view>
+      <view>
+        <text class="time">2018年5月12日</text>
+      </view>
+    </view>
+    <view class="detailsFr">
+      <image src="/images/studyDetails/details7.jpg"></image>
     </view>
   </view>
 </view>

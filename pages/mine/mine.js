@@ -7,6 +7,18 @@ Page({
     // 获取用户信息
 
   },
+  studyDetails: function (event) {
+    wx.navigateTo({
+      url: "/pages/studyDetails/studyDetails",
+
+    })
+  },
+  myPost:function (){
+    wx.navigateTo({
+      url: "/pages/myPost/myPost",
+
+    })
+  },
   onReady:function(){
     // 页面渲染完成
   },

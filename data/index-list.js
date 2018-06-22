@@ -4,15 +4,16 @@ var articleList= [{
             "Id": 11296548,
             "CreateDate": "2018-01-12",
             "Click": 504,
-            "ContentDesc": "论坛运营日报6.30功能更新：微赞电台语音直播正式发布，流量、电量消耗更低，直播1小时仅需30-50mb，适用语音小说连载，内部电话会议，音乐在线收听等等。", 
+            "ContentDesc": "承蒙各位手绘爱好者粉丝的厚爱，“30天我们一起学手绘”活动已圆满结束。在此期间我们受到了广大粉丝朋友的欢迎和手绘爱好者的支持。手绘爱好者在学习和打卡过程中，发现手绘变得简单易学，各位的手绘才艺也得到慢慢提升。", 
             "IsPraise": 1,
             "Praise": 2,
+            "good":"zi1",
             "CommentCount": 1,          
             "RewardUsers": [
                 {
                     "Id": 454645,
                     "Headimgurl": "http://wx.qlogo.cn/mmopen/tZOqj4KIx0hUglACMt0LKibI0aFfNpz7otTfNg5BmHjvic4QFL6gZ5oFcYQQuso90tZt5eZcibgwbpbnpakSR4X7UE6na6oVP3z/0",
-                    "NickName": "攻城狮-周明秀",
+                    "NickName": "攻城狮",
                     "Level": null,
                     "PayMoney": 0
                 }
@@ -55,7 +56,7 @@ var articleList= [{
             "User": {
                 "Id": 454645,
                 "Headimgurl": "http://wx.qlogo.cn/mmopen/tZOqj4KIx0hUglACMt0LKibI0aFfNpz7otTfNg5BmHjvic4QFL6gZ5oFcYQQuso90tZt5eZcibgwbpbnpakSR4X7UE6na6oVP3z/132",
-                "NickName": "攻城狮-周明秀",
+                "NickName": "攻城狮",
                 "Level": "3",
                 "PayMoney": 0
             },
